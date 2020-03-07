@@ -1,6 +1,6 @@
 # morning repository is a shit
 # trash code for practice and test
 ~~~
-copyright @ Mr. CHEN 
+copyright @ Mr. Morning 
 ~~~
 > c.morning@foxmail.com
