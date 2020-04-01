@@ -1,5 +1,6 @@
 # morning repository is a shit
 # trash code for practice and test
+# take notes
 ~~~
 copyright @ Mr. Morning 
 ~~~
