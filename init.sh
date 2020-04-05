@@ -17,6 +17,7 @@ sudo apt-get update
 
 # pip install builtwith
 # pip install python-whois
+# sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 # 补充：网盘、输入法、QQ、QQLive
 sudo apt-get upgrade
 sudo apt autoremove
