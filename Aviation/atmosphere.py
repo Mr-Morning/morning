@@ -22,7 +22,7 @@ def density(h=0):
         W=1+(H-24.9021)/221.552
         Den=density_SL*3.2722*(10**-2)*(W**-35.1629)        
     elif (Z>32.1619)and(Z<=47.3501):
-        W=1+(H-39.7499)/89.4107;
+        W=1+(H-39.7499)/89.4107
         Den=density_SL*3.2618*(10**-3)*(W**-13.2011)        
     elif (Z>47.3501)and(Z<=51.4125):
         W=math.exp((48.6252-H)/7.9223)
@@ -39,3 +39,11 @@ def density(h=0):
     else :
         print('Error')
     return Den
+
+def gravity(h=0): 
+# acceleration due to gravity
+    H=h/1000                # H单位由h的m变为km
+    R0=6.356766*(10**3)     # km
+    Z=H/(1-H/R0)            # km
+    g=9.80665/( (1+Z/(6.356766*10**3))**2 )
+    return g
